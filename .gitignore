@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Environments & Dependencies
+venv/
+.venv/
+env/
+
+# Python junk
+__pycache__/
+*.py[cod]
+
+# Airflow & Docker junk
+logs/
+plugins/
+airflow.db
+airflow.cfg
+.pytest_cache/
+
+# OS junk
+.DS_Store
+Thumbs.db
